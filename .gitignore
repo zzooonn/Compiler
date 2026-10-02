@@ -1,0 +1,29 @@
+# Local development state
+.vs/
+.idea/
+.vscode/
+.claude/
+.agents/
+__pycache__/
+*.pyc
+*.ipch
+*.pdb
+*.obj
+*.o
+*.exe
+*.ilk
+*.pch
+*.suo
+*.tlog
+
+# CMake output
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# Output from the documented smoke example
+/examples/smoke/lexer.txt
+/examples/smoke/pcode.txt
+/examples/smoke/error.txt
+/examples/smoke/pcoderesult.txt

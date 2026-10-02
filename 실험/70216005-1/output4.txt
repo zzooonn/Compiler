@@ -1,0 +1,12 @@
+70216005
+Sum : 30
+Dis : -10
+Mul : 200
+Div : 2
+Per : 0
+a is less than b
+a+b is lagger than 25
+22
+38
+5
+wow

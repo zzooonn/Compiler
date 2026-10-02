@@ -1,0 +1,6 @@
+int main(){
+    if(int b = 1);{
+	printf("wow");
+    }
+    return 0;
+}

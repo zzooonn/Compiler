@@ -1,0 +1,51 @@
+int num = 0;
+
+void func()
+{
+    num = num + 5;
+    printf("%d\n", num);
+}
+
+int main()
+{
+    printf("70216005\n");
+
+    const int a = 10;
+    const int b = 20;
+
+    const int sum = a + b;
+    printf("Sum : %d\n", sum);
+
+    int dis = a - b;
+    printf("Dis : %d\n", dis);
+
+    int mul = a * b;
+    printf("Mul : %d\n", mul);
+
+    int div = b / a;
+    printf("Div : %d\n", div);
+
+    int per = b % a;
+    printf("Per : %d\n", per);
+
+    if (a - b < 0)
+        printf("a is less than b\n");
+
+    if (a + b >= 25)
+        printf("a+b is lagger than 25\n");
+
+    if( a == b )
+        printf("11\n");
+    else printf("22\n");
+    
+    char a1 = '0' - 10;
+    printf("%d\n", a1);
+
+    func();
+    
+    
+    if( a + b <= 90)
+        printf("wow\n");
+
+    return 0;
+}

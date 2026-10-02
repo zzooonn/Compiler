@@ -1,0 +1,93 @@
+char arr[4] = "qwe";
+
+void SumofArray(int arr[], int size)
+{
+    int sum = 0;
+    int i;
+    for (i = 0; i < size; i = i + 1)
+    {
+        sum = sum + arr[i];
+    }
+    printf("Sum value: %d\n", sum);
+
+
+    if (sum > 200 || sum < 10)
+    {
+        printf("Sum is greater than 200\n");
+    }
+    else if (sum > 100 && sum < 199)
+    {
+        printf("Sum is greater than 100 but less than or equal to 200\n");
+    }
+    else
+    {
+        printf("Sum is less than or equal to 100\n");
+    }
+}
+
+
+void findMax(int arr[], int size)
+{
+    int max = arr[0];
+    int i;
+    for (i = 1; i < size; i = i + 1)
+    {
+        if (arr[i] > max)
+        {
+            max = arr[i];
+        }
+    }
+    printf("Max value: %d\n", max);
+}
+
+
+void func()
+{
+    return ;
+}
+
+
+int main()
+{
+    printf("70216005\n");
+
+    int numberofArray[10] = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
+    int i;
+
+    for (i = 0; i < 10; i = i + 1)
+    {
+        if (i < 9)
+            printf("%d ", numberofArray[i]);
+        else
+            printf("%d", numberofArray[i]);
+    }
+    printf("\n");
+
+    SumofArray(numberofArray, 10);
+    findMax(numberofArray, 10);
+
+    if (numberofArray[9] > numberofArray[10] || numberofArray[9] < numberofArray[0])
+    {
+        printf("1\n");
+    }
+    else
+    {
+        printf("2\n");
+    }
+
+    if (numberofArray[1] != numberofArray[2])
+    {
+        printf("4\n");
+    }
+
+    char a1 = '0' - 10;
+    printf("%d\n", a1);
+
+    int num = numberofArray[0] * numberofArray[3] / numberofArray[6];
+    printf("%d\n", num);
+
+    if (numberofArray[10] == numberofArray[9] + numberofArray[1])
+        printf("11\n");
+
+    return 0;
+}

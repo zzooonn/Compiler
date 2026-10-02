@@ -1,0 +1,4 @@
+j : 4, k : 10, l : 4
+a! = 720, num = 5
+6
+scanf a, b to get gcd and lcm
